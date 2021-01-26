@@ -24,7 +24,7 @@
 
 /* Main */
 
-main section {
+main > section {
 margin: 20px 0 20px;
 }
 
@@ -43,7 +43,7 @@ margin: 20px 0 20px;
   height: 80px;
 }
 
-.content {
+.column {
   height: 320px;
   background-color: #ABCFE7;
   margin: 10px;
@@ -51,12 +51,19 @@ margin: 20px 0 20px;
 }
 
 .w25 {
-  margin: 10px 0;
   width: 25%;
 }
 
 .w50 {
+  width: 50%;
+}
+
+.section-content .column.w50 {
   width: calc(50% - 20px);
+}
+
+.section-content .column.w25 {
+  margin: 10px 0;
 }
 
 /* Footer */
