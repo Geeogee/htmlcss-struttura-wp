@@ -45,8 +45,8 @@ margin: 20px 0 20px;
 
 .column {
   height: 320px;
+  margin: 10px 0 10px 0;
   background-color: #ABCFE7;
-  margin: 10px;
   float: left;
 }
 
@@ -59,11 +59,8 @@ margin: 20px 0 20px;
 }
 
 .section-content .column.w50 {
+  margin: 10px;
   width: calc(50% - 20px);
-}
-
-.section-content .column.w25 {
-  margin: 10px 0;
 }
 
 /* Footer */
